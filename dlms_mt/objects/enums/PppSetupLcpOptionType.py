@@ -1,0 +1,46 @@
+#
+#  --------------------------------------------------------------------------
+#   Mildtrix Ltd
+#
+#
+#
+#  Filename: $HeadURL$
+#
+#  Version: $Revision$,
+#                   $Date$
+#                   $Author$
+#
+#  Copyright (c) Mildtrix Ltd
+#
+# ---------------------------------------------------------------------------
+#
+#   DESCRIPTION
+#
+#  This file is a part of Mildtrix Device Framework.
+#
+#  Mildtrix Device Framework is Open Source software; you can redistribute it
+#  and/or modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; version 2 of the License.
+#  Mildtrix Device Framework is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#  See the GNU General Public License for more details.
+#
+#  More information of Mildtrix products: http://www.mildtrix.org
+#
+#  This code is licensed under the GNU General Public License v2.
+#  Full text may be retrieved at http://www.gnu.org/licenses/gpl-2.0.txt
+# ---------------------------------------------------------------------------
+from dlms_mt.MILDIntEnum import MILDIntEnum
+
+class PppSetupLcpOptionType(MILDIntEnum):
+    #pylint: disable=too-few-public-methods
+
+    MAX_REC_UNIT = 1
+    ASYNC_CONTROL_CHAR_MAP = 2
+    AUTH_PROTOCOL = 3
+    MAGIC_NUMBER = 5
+    PROTOCOL_FIELD_COMPRESSION = 7
+    ADDRESS_AND_CTRL_COMPRESSION = 8
+    FCS_ALTERNATIVES = 9
+    CALLBACK = 13
